@@ -1,3 +1,13 @@
+TEMA DO TRABALHO: Jogo da Memória
+Participantes: Erik Kaue Paroline - RA: 20960545 - GITHUB: https://github.com/bercolis/JogodaMemomria
+Fernanda Umberto - RA: 20943426 - GITHUB: https://github.com/fe-umb/crud-game
+Guilherme Rodrigues - RA: 20996393 - GITHUB: https://github.com/GuilhermeRodMiranda/JogoMemoria
+Matheus Marques - RA: 20981531 - GITHUB: https://github.com/Debrastak/Jogo-mem-ria
+Milena Basso - RA: 20956610 - GITHUB: https://github.com/mlnbss/Desenvolvimento-de-Software-Para-Web
+
+-----------------------------------
+
+NOME DO BANCO DE DADOS: bdjogodamemoria
 CREATE TABLE aluno (
  ra varchar(8) NOT NULL,
  senha varchar(20) NOT NULL,
@@ -26,11 +36,10 @@ CREATE TABLE professor (
  PRIMARY KEY (ra)
 )
 
-NOME DO BANCO DE DADOS: bdjogodamemoria
-
--------------------------
+-----------------------------------
 
 População do banco:
+
 INSERT INTO aluno
 
 	VALUES('100960545', 'admin', 'Erik Kaue', 'dos Santos', 'erikaotop@hotmail.com');
